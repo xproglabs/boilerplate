@@ -1,0 +1,41 @@
+{
+  "name": "xprog-boilerplate",
+  "version": "1.0.0",
+  "description": "Projeto utilizado como ponto de partida, boilerplace ou bootstrap para os projetos da XPROGlabs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --colors --port 3000",
+    "webpack": "webpack",
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xproglabs/boilerplate.git"
+  },
+  "author": "Valdo Raya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xproglabs/boilerplate/issues"
+  },
+  "homepage": "https://github.com/xproglabs/boilerplate#readme",
+  "devDependencies": {
+    "del": "2.2.0",
+    "gulp": "3.9.1",
+    "gulp-clean-css": "2.0.6",
+    "gulp-cli": "1.2.1",
+    "gulp-concat": "2.6.0",
+    "gulp-debug": "2.1.2",
+    "gulp-google-cdn": "2.1.0",
+    "gulp-nodemon": "2.0.6",
+    "gulp-sass": "2.3.1",
+    "gulp-uglify": "1.5.3",
+    "gulp-util": "3.0.7",
+    "gulp-webpack": "1.5.0",
+    "treet": "0.1.0",
+    "webpack": "1.13.0",
+    "webpack-dev-middleware": "1.6.1",
+    "webpack-dev-server": "1.14.1",
+    "webpack-hot-middleware": "2.10.0"
+  }
+}
